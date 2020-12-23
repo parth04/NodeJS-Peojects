@@ -37,7 +37,7 @@ const addNotes = (title, body) => {
     }
 
 }
-debugger
+
 const saveNotes = (notes) => {
     const dataJson = JSON.stringify(notes)
     fs.writeFileSync("notes.json", dataJson)
