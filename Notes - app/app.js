@@ -1,21 +1,3 @@
-// const fs = require('fs')
-
-// fs.writeFileSync("notes.txt", "Welcome to the class Parth!")
-// fs.appendFileSync("notes.txt", " It's gonna be a great ride.")
-
-
-// const add = require("./utils")
-// console.log(name);
-// console.log(add(25, 25));
-
-// const getNotes = require("./notes")
-// console.log(getNotes());
-
-// const validator = require("validator")
-// const chalk = require("chalk")
-// console.log(validator.isURL("https//mead.io"));
-// console.log(chalk.green("Success"));
-// console.log(process.argv[2]);
 
 const yargs = require("yargs")
 const notes = require("./notes")
